@@ -1,0 +1,21 @@
+{
+    "name": "zzl/test",
+    "description": "pack zzl test",
+    "type": "library",
+    "require": {
+        "php": "^7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zzl",
+            "email": "yourmail@youremail.com.cndddd"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Zzl\\": "src/"
+        }
+    }
+}
